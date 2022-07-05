@@ -2,16 +2,8 @@
 <html lang="en">
 
 <head>
-    <script>
-        window.SnipcartSettings = {
-            publicApiKey: "ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw",
-            loadStrategy: "on-user-interaction",
-        };
-
-        (function () { var c, d; (d = (c = window.SnipcartSettings).version) != null || (c.version = "3.1.1"); var s, S; (S = (s = window.SnipcartSettings).currency) != null || (s.currency = "usd"); var l, p; (p = (l = window.SnipcartSettings).timeoutDuration) != null || (l.timeoutDuration = 2750); var w, u; (u = (w = window.SnipcartSettings).domain) != null || (w.domain = "cdn.snipcart.com"); var m, g; (g = (m = window.SnipcartSettings).protocol) != null || (m.protocol = "https"); var f, v; (v = (f = window.SnipcartSettings).loadCSS) != null || (f.loadCSS = !0); var E = window.SnipcartSettings.version.includes("v3.0.0-ci") || window.SnipcartSettings.version != "3.0" && window.SnipcartSettings.version.localeCompare("3.4.0", void 0, { numeric: !0, sensitivity: "base" }) === -1, y = ["focus", "mouseover", "touchmove", "scroll", "keydown"]; window.LoadSnipcart = o; document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r(); function r() { window.SnipcartSettings.loadStrategy ? window.SnipcartSettings.loadStrategy === "on-user-interaction" && (y.forEach(function (t) { return document.addEventListener(t, o) }), setTimeout(o, window.SnipcartSettings.timeoutDuration)) : o() } var a = !1; function o() { if (a) return; a = !0; let t = document.getElementsByTagName("head")[0], n = document.querySelector("#snipcart"), i = document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][src$="snipcart.js"]')), e = document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][href$="snipcart.css"]')); n || (n = document.createElement("div"), n.id = "snipcart", n.setAttribute("hidden", "true"), document.body.appendChild(n)), $(n), i || (i = document.createElement("script"), i.src = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.js"), i.async = !0, t.appendChild(i)), !e && window.SnipcartSettings.loadCSS && (e = document.createElement("link"), e.rel = "stylesheet", e.type = "text/css", e.href = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.css"), t.prepend(e)), y.forEach(function (h) { return document.removeEventListener(h, o) }) } function $(t) { !E || (t.dataset.apiKey = window.SnipcartSettings.publicApiKey, window.SnipcartSettings.addProductBehavior && (t.dataset.configAddProductBehavior = window.SnipcartSettings.addProductBehavior), window.SnipcartSettings.modalStyle && (t.dataset.configModalStyle = window.SnipcartSettings.modalStyle), window.SnipcartSettings.currency && (t.dataset.currency = window.SnipcartSettings.currency), window.SnipcartSettings.templatesUrl && (t.dataset.templatesUrl = window.SnipcartSettings.templatesUrl)) } })();
-    </script>
     <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
+        w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
@@ -51,7 +43,7 @@
             -ms-user-select: none;
             user-select: none;
         }
-
+        
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
@@ -64,7 +56,7 @@
         <div class="mx-auto text-center logo-image">
             <h1><img src="assets/img/logo-md.png" class="img-fluid py-5" /></h1>
             <a class="btn btn-primary js-scroll-trigger"
-                href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados.">Contáctanos</a>
+            href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados.">Contáctanos</a>
             <h2 class="text-white mx-auto mt-2 mb-5 pt-5">Descubre México a través experiencia única y a la puerta de tu
                 hogar.</h2>
             <br>
@@ -76,6 +68,15 @@
 </header>
 
 <body id="page-top">
+    <script>
+        window.SnipcartSettings = {
+            publicApiKey: "ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw",
+            loadStrategy: "on-user-interaction",
+            version: "3.4.0"
+        };
+
+        (function () { var c, d; (d = (c = window.SnipcartSettings).version) != null || (c.version = "3.0"); var s, S; (S = (s = window.SnipcartSettings).currency) != null || (s.currency = "usd"); var l, p; (p = (l = window.SnipcartSettings).timeoutDuration) != null || (l.timeoutDuration = 2750); var w, u; (u = (w = window.SnipcartSettings).domain) != null || (w.domain = "cdn.snipcart.com"); var m, g; (g = (m = window.SnipcartSettings).protocol) != null || (m.protocol = "https"); var f, v; (v = (f = window.SnipcartSettings).loadCSS) != null || (f.loadCSS = !0); var E = window.SnipcartSettings.version.includes("v3.0.0-ci") || window.SnipcartSettings.version != "3.0" && window.SnipcartSettings.version.localeCompare("3.4.0", void 0, { numeric: !0, sensitivity: "base" }) === -1, y = ["focus", "mouseover", "touchmove", "scroll", "keydown"]; window.LoadSnipcart = o; document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r(); function r() { window.SnipcartSettings.loadStrategy ? window.SnipcartSettings.loadStrategy === "on-user-interaction" && (y.forEach(function (t) { return document.addEventListener(t, o) }), setTimeout(o, window.SnipcartSettings.timeoutDuration)) : o() } var a = !1; function o() { if (a) return; a = !0; let t = document.getElementsByTagName("head")[0], n = document.querySelector("#snipcart"), i = document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][src$="snipcart.js"]')), e = document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][href$="snipcart.css"]')); n || (n = document.createElement("div"), n.id = "snipcart", n.setAttribute("hidden", "true"), document.body.appendChild(n)), $(n), i || (i = document.createElement("script"), i.src = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.js"), i.async = !0, t.appendChild(i)), !e && window.SnipcartSettings.loadCSS && (e = document.createElement("link"), e.rel = "stylesheet", e.type = "text/css", e.href = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.css"), t.prepend(e)), y.forEach(function (h) { return document.removeEventListener(h, o) }) } function $(t) { !E || (t.dataset.apiKey = window.SnipcartSettings.publicApiKey, window.SnipcartSettings.addProductBehavior && (t.dataset.configAddProductBehavior = window.SnipcartSettings.addProductBehavior), window.SnipcartSettings.modalStyle && (t.dataset.configModalStyle = window.SnipcartSettings.modalStyle), window.SnipcartSettings.currency && (t.dataset.currency = window.SnipcartSettings.currency), window.SnipcartSettings.templatesUrl && (t.dataset.templatesUrl = window.SnipcartSettings.templatesUrl)) } })();
+    </script>
     <script src="js/anime-master/lib/anime.min.js"></script>
     <script src="js/animation.js"></script>
     <!-- Google Tag Manager (noscript) -->
@@ -168,7 +169,7 @@
                         </div>
                     </div>
                     <button class="snipcart-add-item" data-item-id="painting_lessons" data-item-name="1h painting class"
-                        data-item-price="30" data-item-url="/"
+                        data-item-price="30" data-item-url="https://isaacddr.github.io/mexicodivino-test"
                         data-item-description="Painting lessons - 1h" data-item-selected-plan="weekly-plan"
                         data-plan1-id="weekly-plan" data-plan1-name="1h / week for 1 session"
                         data-plan1-frequency="weekly" data-plan1-interval="1" data-plan1-count="10"
